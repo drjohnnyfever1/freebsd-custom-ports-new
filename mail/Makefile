@@ -98,7 +98,6 @@
     SUBDIR += dspam
     SUBDIR += ecartis
     SUBDIR += elm
-    SUBDIR += elmo
     SUBDIR += emailrelay
     SUBDIR += emil
     SUBDIR += enma
@@ -488,6 +487,7 @@
     SUBDIR += py-alot
     SUBDIR += py-authheaders
     SUBDIR += py-authres
+    SUBDIR += py-django-mailbox
     SUBDIR += py-django-mailman3
     SUBDIR += py-dkimpy
     SUBDIR += py-email-validator
