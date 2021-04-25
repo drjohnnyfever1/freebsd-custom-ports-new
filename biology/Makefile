@@ -84,6 +84,7 @@
     SUBDIR += muscle
     SUBDIR += ncbi-blast+
     SUBDIR += ncbi-cxx-toolkit
+    SUBDIR += ncbi-entrez-direct
     SUBDIR += ncbi-toolkit
     SUBDIR += ncbi-vdb
     SUBDIR += ngs-sdk
@@ -143,6 +144,7 @@
     SUBDIR += py-pandas-charm
     SUBDIR += py-pyfaidx
     SUBDIR += py-pysam
+    SUBDIR += py-resdk
     SUBDIR += py-scikit-bio
     SUBDIR += py-xenaPython
     SUBDIR += pyfasta

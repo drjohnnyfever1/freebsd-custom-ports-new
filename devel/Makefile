@@ -781,7 +781,6 @@
     SUBDIR += geany-plugins-l10n
     SUBDIR += geany-themes
     SUBDIR += gearmand
-    SUBDIR += gearmand-devel
     SUBDIR += gecode
     SUBDIR += generate
     SUBDIR += gengetopt
@@ -1406,6 +1405,7 @@
     SUBDIR += linux-c7-libpciaccess
     SUBDIR += linux-c7-libsigc++20
     SUBDIR += linux-c7-libthai
+    SUBDIR += linux-c7-libtool-ltdl
     SUBDIR += linux-c7-libunwind
     SUBDIR += linux-c7-make
     SUBDIR += linux-c7-nspr
@@ -4315,6 +4315,7 @@
     SUBDIR += py-curio
     SUBDIR += py-cursive
     SUBDIR += py-curtsies
+    SUBDIR += py-cvss
     SUBDIR += py-cwcwidth
     SUBDIR += py-cxx
     SUBDIR += py-cycler
@@ -4379,7 +4380,6 @@
     SUBDIR += py-enlighten
     SUBDIR += py-entrypoints
     SUBDIR += py-enum-compat
-    SUBDIR += py-enum34
     SUBDIR += py-envisage
     SUBDIR += py-epdb
     SUBDIR += py-epsilon
@@ -4648,6 +4648,7 @@
     SUBDIR += py-memory-profiler
     SUBDIR += py-microversion-parse
     SUBDIR += py-milc
+    SUBDIR += py-mime
     SUBDIR += py-minidump
     SUBDIR += py-minimongo
     SUBDIR += py-minio
@@ -6528,6 +6529,7 @@
     SUBDIR += rubygem-ruby-fogbugz021
     SUBDIR += rubygem-ruby-libvirt
     SUBDIR += rubygem-ruby-macho
+    SUBDIR += rubygem-ruby-magic
     SUBDIR += rubygem-ruby-magic-static
     SUBDIR += rubygem-ruby-ole
     SUBDIR += rubygem-ruby-prof

@@ -68,7 +68,6 @@
     SUBDIR += cargo-audit
     SUBDIR += ccrypt
     SUBDIR += ccsrch
-    SUBDIR += certificate-transparency
     SUBDIR += cfs
     SUBDIR += cfssl
     SUBDIR += chaosreader
@@ -147,7 +146,6 @@
     SUBDIR += fakeident
     SUBDIR += fakeroot
     SUBDIR += farmhash
-    SUBDIR += fbopenssl
     SUBDIR += fcheck
     SUBDIR += fcrackzip
     SUBDIR += ffuf
@@ -1198,6 +1196,7 @@
     SUBDIR += softether-devel
     SUBDIR += softether5
     SUBDIR += softhsm2
+    SUBDIR += solana
     SUBDIR += sops
     SUBDIR += spass
     SUBDIR += spass-qt5
