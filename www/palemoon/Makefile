@@ -4,7 +4,7 @@ PORTNAME=	palemoon
 # UXP_VERSION below *MUST BE UPDATED* according to DISTVERSION (see recorded
 # commit of the 'platform' git sub-module and corresponding release in
 # UXP/releases; see MASTER_SITES for base URLs).
-DISTVERSION=	29.1.1
+DISTVERSION=	29.2.0
 CATEGORIES=	www
 MASTER_SITES=	https://repo.palemoon.org/MoonchildProductions/Pale-Moon/archive/:palemoon \
 		https://repo.palemoon.org/MoonchildProductions/UXP/archive/:uxp
@@ -101,7 +101,7 @@ SYSTEM_MALLOC_DESC=	Use system's jemalloc instead of bundled one
 
 ## Vars and targets
 
-UXP_VERSION=	20210330
+UXP_VERSION=	20210427
 
 WRKSRC=		${WRKDIR}/pale-moon
 
