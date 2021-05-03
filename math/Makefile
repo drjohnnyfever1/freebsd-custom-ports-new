@@ -133,6 +133,7 @@
     SUBDIR += adol-c
     SUBDIR += algae
     SUBDIR += alglib
+    SUBDIR += alps
     SUBDIR += alt-ergo
     SUBDIR += amath
     SUBDIR += ambit
@@ -154,6 +155,7 @@
     SUBDIR += atlas
     SUBDIR += barvinok
     SUBDIR += bcal
+    SUBDIR += bcps
     SUBDIR += bitwise
     SUBDIR += blacs
     SUBDIR += blas
@@ -275,6 +277,7 @@
     SUBDIR += flexfloat
     SUBDIR += flint2
     SUBDIR += flintqs
+    SUBDIR += flopc++
     SUBDIR += form
     SUBDIR += fpc-fftw
     SUBDIR += fpc-gmp
@@ -326,6 +329,7 @@
     SUBDIR += gsl
     SUBDIR += half
     SUBDIR += hexcalc
+    SUBDIR += highs
     SUBDIR += hipmcl
     SUBDIR += hmat-oss
     SUBDIR += hpcombi
@@ -383,6 +387,7 @@
     SUBDIR += librdata
     SUBDIR += librsb
     SUBDIR += libsemigroups
+    SUBDIR += libsharp2
     SUBDIR += libtommath
     SUBDIR += libxls
     SUBDIR += libxlsxwriter
@@ -775,6 +780,7 @@
     SUBDIR += py-cyipopt
     SUBDIR += py-cypari2
     SUBDIR += py-deap
+    SUBDIR += py-ducc0
     SUBDIR += py-ecos
     SUBDIR += py-fastcluster
     SUBDIR += py-fastdtw
@@ -804,6 +810,7 @@
     SUBDIR += py-mathics
     SUBDIR += py-mathics-scanner
     SUBDIR += py-matplotlib
+    SUBDIR += py-matplotlib-inline
     SUBDIR += py-matplotlib-scalebar
     SUBDIR += py-matplotlib2
     SUBDIR += py-mip
@@ -830,6 +837,7 @@
     SUBDIR += py-petsc4py
     SUBDIR += py-piranha
     SUBDIR += py-plastex
+    SUBDIR += py-point-annotator
     SUBDIR += py-pplpy
     SUBDIR += py-primme
     SUBDIR += py-pyFFTW

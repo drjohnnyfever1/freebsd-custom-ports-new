@@ -474,6 +474,7 @@
     SUBDIR += ot-recorder
     SUBDIR += otrs
     SUBDIR += otter-browser
+    SUBDIR += owncast
     SUBDIR += owncloud
     SUBDIR += p5-AMF-Perl
     SUBDIR += p5-Acme-Monta
@@ -1105,6 +1106,7 @@
     SUBDIR += p5-RT-Extension-LDAPImport
     SUBDIR += p5-RT-Extension-MandatoryOnTransition
     SUBDIR += p5-RT-Extension-RepeatTicket
+    SUBDIR += p5-RT-Extension-RepeatTicket2
     SUBDIR += p5-RTx-Calendar
     SUBDIR += p5-Reaction
     SUBDIR += p5-Reddit
@@ -1555,7 +1557,6 @@
     SUBDIR += py-django-voting
     SUBDIR += py-django-webpack-loader
     SUBDIR += py-django-widget-tweaks
-    SUBDIR += py-django111
     SUBDIR += py-django22
     SUBDIR += py-django30
     SUBDIR += py-django31
@@ -1864,6 +1865,7 @@
     SUBDIR += rubygem-eventmachine_httpserver
     SUBDIR += rubygem-faraday
     SUBDIR += rubygem-faraday-net_http
+    SUBDIR += rubygem-faraday-net_http_persistent
     SUBDIR += rubygem-faraday0
     SUBDIR += rubygem-faraday_middleware
     SUBDIR += rubygem-faraday_middleware0

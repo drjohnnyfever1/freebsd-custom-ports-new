@@ -1,8 +1,8 @@
 # Created by: Torsten Zuehlsdorff <tz@FreeBSD.org>
 
 PORTNAME=	gitlab-ce
-PORTVERSION=	13.11.1
-PORTREVISION=	0
+PORTVERSION=	13.11.2
+PORTREVISION=	1
 CATEGORIES=	www devel
 
 MAINTAINER=	mfechner@FreeBSD.org
@@ -16,11 +16,11 @@ LICENSE_FILE=	${WRKSRC}/LICENSE
 MY_DEPENDS=	git>=2.31.0:devel/git \
 	gitaly>=${PORTVERSION}:devel/gitaly \
 	gitlab-elasticsearch-indexer>=2.9.0:textproc/gitlab-elasticsearch-indexer \
-	gitlab-agent>=${PORTVERSION}:net/gitlab-agent \
+	gitlab-agent>=13.11.1:net/gitlab-agent \
 	gitlab-pages>=1.38.0:www/gitlab-pages \
 	gitlab-shell>=13.17.0:devel/gitlab-shell \
 	gitlab-workhorse>=${PORTVERSION}:www/gitlab-workhorse \
-	redis>=4.0.0:databases/redis \
+	redis>=6.0.12:databases/redis \
 	yarn>=1.10.0:www/yarn \
 	gtar>0:archivers/gtar \
 	bash>0:shells/bash \
@@ -34,7 +34,7 @@ MY_DEPENDS=	git>=2.31.0:devel/git \
 	rubygem-grape-path-helpers>=1.6.1<1.7:devel/rubygem-grape-path-helpers \
 	rubygem-faraday>=1.0<2:www/rubygem-faraday \
 	rubygem-marginalia>=1.10.0<1.11:databases/rubygem-marginalia \
-	rubygem-devise-rails60>=4.7.2<4.8:devel/rubygem-devise-rails60 \
+	rubygem-devise47-rails60>=4.7.2<4.8:devel/rubygem-devise47-rails60 \
 	rubygem-bcrypt>=3.1.14<3.2:security/rubygem-bcrypt \
 	rubygem-doorkeeper>=5.5.0.rc2<5.6:security/rubygem-doorkeeper \
 	rubygem-doorkeeper-openid_connect>=1.7.5<1.8:security/rubygem-doorkeeper-openid_connect \
@@ -90,7 +90,7 @@ MY_DEPENDS=	git>=2.31.0:devel/git \
 	rubygem-hashie-forbidden_attributes>0:devel/rubygem-hashie-forbidden_attributes \
 	rubygem-kaminari-rails60>=1.2.1<2.0:www/rubygem-kaminari-rails60 \
 	rubygem-hamlit>=2.15.0<2.16:www/rubygem-hamlit \
-	rubygem-carrierwave>=1.3<2.0:www/rubygem-carrierwave \
+	rubygem-carrierwave>=1.3.2<2.0:www/rubygem-carrierwave \
 	rubygem-mini_magick>=4.10.1<4.11:graphics/rubygem-mini_magick \
 	rubygem-fog-aws>=3.9<4.0:net/rubygem-fog-aws \
 	rubygem-fog-core210=2.1.0:devel/rubygem-fog-core210 \
@@ -269,7 +269,7 @@ USE_GITLAB=	yes
 GL_ACCOUNT?=	gitlab-org
 GL_PROJECT?=	gitlab-foss
 # Find the here: https://gitlab.com/gitlab-org/gitlab-foss/-/tags
-GL_COMMIT?=	2fad41087674984a064cf6a312ac34c16bb2a1aa
+GL_COMMIT?=	d8d57a90208c62b29e5218f97525404859232a55
 
 USERS=	git
 GROUPS=	git

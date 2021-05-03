@@ -219,6 +219,7 @@
     SUBDIR += livego
     SUBDIR += lives
     SUBDIR += livestreamer
+    SUBDIR += lms
     SUBDIR += lsdvd
     SUBDIR += m2tstoavi
     SUBDIR += m2vrequantiser
@@ -351,6 +352,7 @@
     SUBDIR += rubygem-streamio-ffmpeg
     SUBDIR += sabbu
     SUBDIR += schroedinger
+    SUBDIR += scte35dump
     SUBDIR += shotcut
     SUBDIR += simplescreenrecorder
     SUBDIR += smpeg
